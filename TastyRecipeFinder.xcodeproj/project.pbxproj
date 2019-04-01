@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		405E0260224FBE2D00779C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E025F224FBE2D00779C0C /* AppDelegate.swift */; };
-		405E0262224FBE2D00779C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E0261224FBE2D00779C0C /* ViewController.swift */; };
 		405E0265224FBE2E00779C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405E0263224FBE2E00779C0C /* Main.storyboard */; };
 		405E0267224FBE2F00779C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405E0266224FBE2F00779C0C /* Assets.xcassets */; };
 		405E026A224FBE2F00779C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405E0268224FBE2F00779C0C /* LaunchScreen.storyboard */; };
 		405E0275224FBE2F00779C0C /* TastyRecipeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E0274224FBE2F00779C0C /* TastyRecipeFinderTests.swift */; };
 		405E0280224FBE2F00779C0C /* TastyRecipeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E027F224FBE2F00779C0C /* TastyRecipeFinderUITests.swift */; };
+		405E028E224FD21C00779C0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E028D224FD21C00779C0C /* LoginViewController.swift */; };
+		405E0290224FD23D00779C0C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E028F224FD23D00779C0C /* FeedViewController.swift */; };
+		405E0292224FD83900779C0C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E0291224FD83900779C0C /* ProfileViewController.swift */; };
+		405E0294224FDDEE00779C0C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E0293224FDDEE00779C0C /* SettingsViewController.swift */; };
+		405E0296224FDEF300779C0C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E0295224FDEF300779C0C /* PostViewController.swift */; };
+		E33959375C7499394E5E9B3E /* Pods_TastyRecipeFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D49DD5927BB3521B2170E /* Pods_TastyRecipeFinder.framework */; };
+		F9C85D5C61FD18BBD7AD459C /* Pods_TastyRecipeFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32046FF0CDBB2B7947959A41 /* Pods_TastyRecipeFinderTests.framework */; };
+		FEA1EDF6B48D42CDE7989630 /* Pods_TastyRecipeFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06EC14379669E192B18EBBE /* Pods_TastyRecipeFinderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DDFCDDA37EE4289FCF84B7F /* Pods-TastyRecipeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinder/Pods-TastyRecipeFinder.release.xcconfig"; sourceTree = "<group>"; };
+		1C9AE8EFB6F42220AF736D9F /* Pods-TastyRecipeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinderUITests/Pods-TastyRecipeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32046FF0CDBB2B7947959A41 /* Pods_TastyRecipeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TastyRecipeFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		405E025C224FBE2D00779C0C /* TastyRecipeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyRecipeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405E025F224FBE2D00779C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		405E0261224FBE2D00779C0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		405E0264224FBE2E00779C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		405E0266224FBE2F00779C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		405E0269224FBE2F00779C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		405E027B224FBE2F00779C0C /* TastyRecipeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastyRecipeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		405E027F224FBE2F00779C0C /* TastyRecipeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyRecipeFinderUITests.swift; sourceTree = "<group>"; };
 		405E0281224FBE2F00779C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405E028D224FD21C00779C0C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		405E028F224FD23D00779C0C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		405E0291224FD83900779C0C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		405E0293224FDDEE00779C0C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		405E0295224FDEF300779C0C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		565AE411838DE059A983988D /* Pods-TastyRecipeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinderUITests/Pods-TastyRecipeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93F62687ED000AE603A931B7 /* Pods-TastyRecipeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinder/Pods-TastyRecipeFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		B06EC14379669E192B18EBBE /* Pods_TastyRecipeFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TastyRecipeFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92D49DD5927BB3521B2170E /* Pods_TastyRecipeFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TastyRecipeFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6839BD3B68D4792DCFFC672 /* Pods-TastyRecipeFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinderTests/Pods-TastyRecipeFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE77F5DA43D67F5A69B05615 /* Pods-TastyRecipeFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinderTests/Pods-TastyRecipeFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33959375C7499394E5E9B3E /* Pods_TastyRecipeFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C85D5C61FD18BBD7AD459C /* Pods_TastyRecipeFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA1EDF6B48D42CDE7989630 /* Pods_TastyRecipeFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F6A4650EB7A315092FFD3E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93F62687ED000AE603A931B7 /* Pods-TastyRecipeFinder.debug.xcconfig */,
+				0DDFCDDA37EE4289FCF84B7F /* Pods-TastyRecipeFinder.release.xcconfig */,
+				FE77F5DA43D67F5A69B05615 /* Pods-TastyRecipeFinderTests.debug.xcconfig */,
+				E6839BD3B68D4792DCFFC672 /* Pods-TastyRecipeFinderTests.release.xcconfig */,
+				1C9AE8EFB6F42220AF736D9F /* Pods-TastyRecipeFinderUITests.debug.xcconfig */,
+				565AE411838DE059A983988D /* Pods-TastyRecipeFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		405E0253224FBE2D00779C0C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				405E0273224FBE2F00779C0C /* TastyRecipeFinderTests */,
 				405E027E224FBE2F00779C0C /* TastyRecipeFinderUITests */,
 				405E025D224FBE2D00779C0C /* Products */,
+				1F6A4650EB7A315092FFD3E0 /* Pods */,
+				A7F0F0C61D0FAD8317FBAB02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +136,15 @@
 			isa = PBXGroup;
 			children = (
 				405E025F224FBE2D00779C0C /* AppDelegate.swift */,
-				405E0261224FBE2D00779C0C /* ViewController.swift */,
 				405E0263224FBE2E00779C0C /* Main.storyboard */,
 				405E0266224FBE2F00779C0C /* Assets.xcassets */,
 				405E0268224FBE2F00779C0C /* LaunchScreen.storyboard */,
 				405E026B224FBE2F00779C0C /* Info.plist */,
+				405E028D224FD21C00779C0C /* LoginViewController.swift */,
+				405E028F224FD23D00779C0C /* FeedViewController.swift */,
+				405E0291224FD83900779C0C /* ProfileViewController.swift */,
+				405E0293224FDDEE00779C0C /* SettingsViewController.swift */,
+				405E0295224FDEF300779C0C /* PostViewController.swift */,
 			);
 			path = TastyRecipeFinder;
 			sourceTree = "<group>";
@@ -125,6 +167,16 @@
 			path = TastyRecipeFinderUITests;
 			sourceTree = "<group>";
 		};
+		A7F0F0C61D0FAD8317FBAB02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92D49DD5927BB3521B2170E /* Pods_TastyRecipeFinder.framework */,
+				32046FF0CDBB2B7947959A41 /* Pods_TastyRecipeFinderTests.framework */,
+				B06EC14379669E192B18EBBE /* Pods_TastyRecipeFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 405E0284224FBE2F00779C0C /* Build configuration list for PBXNativeTarget "TastyRecipeFinder" */;
 			buildPhases = (
+				E75A22F08AC86D40243CAFE3 /* [CP] Check Pods Manifest.lock */,
 				405E0258224FBE2D00779C0C /* Sources */,
 				405E0259224FBE2D00779C0C /* Frameworks */,
 				405E025A224FBE2D00779C0C /* Resources */,
+				F5D1F69F65EEE78D1E10079B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 405E0287224FBE2F00779C0C /* Build configuration list for PBXNativeTarget "TastyRecipeFinderTests" */;
 			buildPhases = (
+				2186E4C63D878CA0253BFF81 /* [CP] Check Pods Manifest.lock */,
 				405E026C224FBE2F00779C0C /* Sources */,
 				405E026D224FBE2F00779C0C /* Frameworks */,
 				405E026E224FBE2F00779C0C /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 405E028A224FBE2F00779C0C /* Build configuration list for PBXNativeTarget "TastyRecipeFinderUITests" */;
 			buildPhases = (
+				C503A4B6D563CA59F7C56CD0 /* [CP] Check Pods Manifest.lock */,
 				405E0277224FBE2F00779C0C /* Sources */,
 				405E0278224FBE2F00779C0C /* Frameworks */,
 				405E0279224FBE2F00779C0C /* Resources */,
@@ -251,12 +307,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2186E4C63D878CA0253BFF81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TastyRecipeFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C503A4B6D563CA59F7C56CD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TastyRecipeFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75A22F08AC86D40243CAFE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TastyRecipeFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D1F69F65EEE78D1E10079B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TastyRecipeFinder/Pods-TastyRecipeFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TastyRecipeFinder/Pods-TastyRecipeFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		405E0258224FBE2D00779C0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				405E0262224FBE2D00779C0C /* ViewController.swift in Sources */,
+				405E0296224FDEF300779C0C /* PostViewController.swift in Sources */,
+				405E028E224FD21C00779C0C /* LoginViewController.swift in Sources */,
+				405E0290224FD23D00779C0C /* FeedViewController.swift in Sources */,
+				405E0292224FD83900779C0C /* ProfileViewController.swift in Sources */,
+				405E0294224FDDEE00779C0C /* SettingsViewController.swift in Sources */,
 				405E0260224FBE2D00779C0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +587,7 @@
 		};
 		405E0285224FBE2F00779C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F62687ED000AE603A931B7 /* Pods-TastyRecipeFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +605,7 @@
 		};
 		405E0286224FBE2F00779C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDFCDDA37EE4289FCF84B7F /* Pods-TastyRecipeFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +623,7 @@
 		};
 		405E0288224FBE2F00779C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE77F5DA43D67F5A69B05615 /* Pods-TastyRecipeFinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +644,7 @@
 		};
 		405E0289224FBE2F00779C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6839BD3B68D4792DCFFC672 /* Pods-TastyRecipeFinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +665,7 @@
 		};
 		405E028B224FBE2F00779C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9AE8EFB6F42220AF736D9F /* Pods-TastyRecipeFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +685,7 @@
 		};
 		405E028C224FBE2F00779C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565AE411838DE059A983988D /* Pods-TastyRecipeFinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

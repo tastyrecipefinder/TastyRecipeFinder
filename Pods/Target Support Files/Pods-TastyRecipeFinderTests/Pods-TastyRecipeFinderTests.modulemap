@@ -1,0 +1,6 @@
+framework module Pods_TastyRecipeFinderTests {
+  umbrella header "Pods-TastyRecipeFinderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
