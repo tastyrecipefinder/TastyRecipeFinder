@@ -27,16 +27,16 @@ Tasty Recipe Finder is an app that allows people to exchange various recipes fro
 
 **Required Must-have Stories**
 
-* Users can sign up.
-* Users can sign in.
-* Users can search for preferred recipes.
-* Users can search for and refine their results by continents, diets etc.
-* Users can attach pictures of meals to their posts.
-* Users can add comments to posts on their feed.
-* Users can follow other users.
-* Users can favorite recipes.
-* Profile pages for each user
-* Settings (Accesibility, Notification, General, etc.)
+* Users can sign up.   1
+* Users can sign in.    1
+* Users can search for preferred recipes.  4
+* Users can search for and refine their results by continents, diets etc.   4
+* Users can attach pictures of meals to their posts. 2
+* Users can add comments to posts on their feed.   2
+* Users can follow other users.  3
+* Users can favorite recipes.  2
+* Profile pages for each user   1
+* Settings (Accesibility, Notification, General, etc.) 3
 
 **Optional Nice-to-have Stories**
 
@@ -86,6 +86,8 @@ Tasty Recipe Finder is an app that allows people to exchange various recipes fro
 
 
 
+
+
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
@@ -93,8 +95,71 @@ Tasty Recipe Finder is an app that allows people to exchange various recipes fro
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+### post model
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+| objectId | string  | individual ids for users to post recipes and ingredients  |
+| user  | string  | user's name  |
+| user image | file | user's picture on profile |
+| postimage |file | Recipe |
+| caption | string | comment created by user based on his or her recipe |
+| post At| date/time | time at which user posted his recipe |
+| title | string | Name of food user wants to share |
+| like count | Number | Number of likes|
+| comment count | number | number of comments |
+| refine | string | sets of string that make precise searching |
+| seach box | bar | box to type what you are searching for |
+| cancel | button | button to stop searching and oush the kepad down |
+| clear | button | delet all the words typed and start typing a new search|
+| help | button | leads you to a page of most asked questions and their answers |
+| display | button | adjust and customize theview of your app|
+| logout | button | choose to sign out and log back in the next time|
+| about | button | description about the app|
+| notifications| button | choose whether to get notified or not |
+| account | button | change your account setup|
+| acknowledgements | button | creators of the application |
+
+
+
 ### Networking
 - [Add list of network requests by screen ]
+
+Sign Up/Sign In
+
+* Make a new account
+* Sign in
+
+Explore
+* query all posts
+* create new like on a post
+* create new comment on a post
+* date created
+* refine page to show posts from logged in user's following users
+* 
+
+
+Profile
+* get logged in user information
+* update user image
+* get all users that logged in user is following
+* count number of likes
+* count number of posts of logged in user
+* query all posts where author is logged in user
+
+
+Post
+* Create a new post object
+
+
+Settings
+* update font size
+* update notification settings
+
+
+
 - [Create basic snippets for each Parse network request]
+
+
+
+
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
