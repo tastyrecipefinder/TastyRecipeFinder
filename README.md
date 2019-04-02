@@ -106,11 +106,25 @@ Tasty Recipe Finder is an app that allows people to exchange various recipes fro
 | post At| date/time | time at which user posted his recipe |
 | title | string | Name of food user wants to share |
 | like count | Number | Number of likes|
+### explore model
 | comment count | number | number of comments |
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
 | refine | string | sets of string that make precise searching |
-| seach box | bar | box to type what you are searching for |
+| user  | string  | user's name  |
+| postimage |file | Recipe |
+| caption | string | comment created by user based on his or her recipe |
+| post At| date/time | time at which user posted his recipe |
+| title | string | Name of food user wants to share |
+### search model
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+| search box | bar | box to type what you are searching for |
 | cancel | button | button to stop searching and oush the kepad down |
 | clear | button | delet all the words typed and start typing a new search|
+### settings model
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
 | help | button | leads you to a page of most asked questions and their answers |
 | display | button | adjust and customize theview of your app|
 | logout | button | choose to sign out and log back in the next time|
@@ -135,7 +149,7 @@ Explore
 * create new comment on a post
 * date created
 * refine page to show posts from logged in user's following users
-* 
+
 
 
 Profile
