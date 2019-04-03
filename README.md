@@ -136,12 +136,31 @@ Tasty Recipe Finder is an app that allows people to exchange various recipes fro
 
 
 ### Networking
-- [Add list of network requests by screen ]
 
 Sign Up/Sign In
 
 * Make a new account
+
+        var user = PFUser()
+        user.username = usernameBox.text
+        user.password = passwordBox.text
+        user.signUpInBackground { (success, error) in
+            if error != nil {
+                self.performSegue(withIdentifier: "loginsuccess", sender: nil)
+            } else {
+                print ("Error: \(error?.localizedDescription)")
+            }
+
 * Sign in
+
+        let username = usernameBox.text!
+        let password = passwordBox.text!
+        PFUser.logInWithUsername(inBackground: username, password: password) { (user, error) in
+            if user != nil {
+                self.performSegue(withIdentifier: "loginsuccess", sender: nil)
+            }else{
+                print ("Error: \(error?.localizedDescription)")
+            }
 
 Explore
 * query all posts
@@ -169,9 +188,6 @@ Settings
 * update font size
 * update notification settings
 
-
-
-- [Create basic snippets for each Parse network request]
 
 
 
