@@ -280,13 +280,29 @@
                                 <rect key="frame" x="41" y="443" width="288" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnY-fE-vAN">
+                                <rect key="frame" x="246" y="64" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Update"/>
+                                <connections>
+                                    <action selector="updateProfileButton:" destination="zRd-50-uda" eventType="touchUpInside" id="SAZ-Um-OgS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VlA-pK-7Qd"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Ihu-em-EId" id="yZR-9w-r6z"/>
+                        <outlet property="userAbout" destination="pFr-Jx-ySp" id="Av2-Px-Ypk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9a-5G-r2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="yNt-ao-VVJ"/>
+                <tapGestureRecognizer id="yNt-ao-VVJ">
+                    <connections>
+                        <action selector="onProfileImageTap:" destination="zRd-50-uda" id="G6S-ey-chP"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2200.8000000000002" y="133.5832083958021"/>
         </scene>
