@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="hiE-3z-Zqr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TastyRecipeFinderWords" translatesAutoresizingMaskIntoConstraints="NO" id="hiE-3z-Zqr">
                                 <rect key="frame" x="34" y="38" width="306" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -368,6 +368,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TastyRecipeFinderWords" width="186" height="93"/>
         <image name="image_placeholder" width="375" height="375"/>
         <image name="profile-512" width="512" height="512"/>
     </resources>
