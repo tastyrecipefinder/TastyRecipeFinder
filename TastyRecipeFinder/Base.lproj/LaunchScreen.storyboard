@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-App-60x60" translatesAutoresizingMaskIntoConstraints="NO" id="ARS-WT-feZ">
-                                <rect key="frame" x="50" y="70" width="308" height="267"/>
+                                <rect key="frame" x="100" y="220" width="308" height="267"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ARS-WT-feZ" secondAttribute="height" multiplier="308:267" id="5xw-c8-snQ"/>
                                     <constraint firstAttribute="height" constant="267" id="IcU-RZ-dQx"/>
@@ -30,11 +30,27 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ARS-WT-feZ" secondAttribute="trailing" constant="50" id="0tr-kc-352"/>
+                            <constraint firstItem="ARS-WT-feZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="7rt-ys-qqi"/>
                             <constraint firstItem="ARS-WT-feZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Cju-9a-QG1"/>
+                            <constraint firstItem="ARS-WT-feZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Myo-Ri-qpO"/>
+                            <constraint firstItem="ARS-WT-feZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Rs8-q4-pQ7"/>
                             <constraint firstItem="ARS-WT-feZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="SPm-pv-T9X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ARS-WT-feZ" secondAttribute="bottom" constant="100" id="exL-v1-ZCL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ARS-WT-feZ" secondAttribute="bottom" constant="200" id="gDD-yq-qYw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ARS-WT-feZ" secondAttribute="bottom" constant="50" id="mmv-Wh-hh5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ARS-WT-feZ" secondAttribute="trailing" constant="100" id="w3e-u2-ME4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0tr-kc-352"/>
+                                <exclude reference="exL-v1-ZCL"/>
+                                <exclude reference="mmv-Wh-hh5"/>
+                                <exclude reference="7rt-ys-qqi"/>
+                                <exclude reference="Cju-9a-QG1"/>
+                                <exclude reference="SPm-pv-T9X"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
