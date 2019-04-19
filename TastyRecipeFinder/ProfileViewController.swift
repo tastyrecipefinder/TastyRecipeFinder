@@ -16,6 +16,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var joinButton: UIButton!
     
+    @IBOutlet weak var followUnfollow: UISwitch!
     @IBOutlet weak var JoinCount: UITextField!
     @IBOutlet weak var userAbout: UITextView!
     
@@ -29,17 +30,9 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
     @IBAction func join_Act(_ sender: Any) {
     }
     
-    
-    @IBAction func join_Number(_ sender: Any) {
+   
+    @IBAction func joinUnjoin(_ sender: Any) {
         
-        if(joinButton.isSelected == true){
-            var join_No:[Int] = []
-            join_No.append(<#T##newElement: Int##Int#>)
-        }
-        struct Array<Element>{
-            //var total_Join =
-            
-        }
     }
     
     @IBAction func updateProfileButton(_ sender: Any) {
