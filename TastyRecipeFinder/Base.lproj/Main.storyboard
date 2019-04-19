@@ -121,25 +121,25 @@
                     </view>
                     <navigationItem key="navigationItem" id="keR-s4-jwv">
                         <leftBarButtonItems>
-                            <barButtonItem title="Home" id="MrF-Tp-LMc"/>
                             <barButtonItem title="Logout" id="NAG-Hx-Cuo">
                                 <connections>
                                     <action selector="Logout:" destination="357-EO-0wQ" id="y5q-jF-xtX"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem title="Home" image="25694" width="60" id="MrF-Tp-LMc"/>
                         </leftBarButtonItems>
                         <rightBarButtonItems>
-                            <barButtonItem title="Settings" style="plain" id="8Xh-Sh-2uh">
+                            <barButtonItem title="Settings" image="settings-512" style="plain" id="8Xh-Sh-2uh">
                                 <connections>
                                     <segue destination="gRG-An-Pd1" kind="show" identifier="settingssegue" id="s9k-9V-L3n"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Profile" image="profile-512" style="plain" id="kpK-Tc-djF">
+                            <barButtonItem title="Profile" image="profile-512" width="100" style="plain" id="kpK-Tc-djF">
                                 <connections>
                                     <segue destination="zRd-50-uda" kind="show" identifier="profilesegue" id="hNb-0f-cAZ"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Add Post" id="G3I-SS-LGN">
+                            <barButtonItem title="Add Post" image="plus-big-512" width="75" id="G3I-SS-LGN">
                                 <connections>
                                     <segue destination="0EP-P8-hxl" kind="presentation" identifier="PostSegue" id="cde-10-2nz"/>
                                 </connections>
@@ -414,8 +414,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="25694" width="368.6400146484375" height="368.6400146484375"/>
         <image name="TastyRecipeFinderWords" width="186" height="93"/>
         <image name="image_placeholder" width="375" height="375"/>
+        <image name="plus-big-512" width="512" height="512"/>
         <image name="profile-512" width="512" height="512"/>
+        <image name="settings-512" width="512" height="512"/>
     </resources>
 </document>
