@@ -8,6 +8,7 @@ target 'TastyRecipeFinder' do
   # Pods for TastyRecipeFinder
   pod "Parse"
   pod "AlamofireImage"
+  pod "InAppSettingsKit"
 
   target 'TastyRecipeFinderTests' do
     inherit! :search_paths
