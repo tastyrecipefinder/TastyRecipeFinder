@@ -14,10 +14,7 @@ import AlamofireImage
 class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var joinButton: UIButton!
-    
-    @IBOutlet weak var followUnfollow: UISwitch!
-    @IBOutlet weak var JoinCount: UITextField!
+    @IBOutlet weak var output: UILabel!
     @IBOutlet weak var userAbout: UITextView!
     
     var join_ff: [String] = []
@@ -27,13 +24,16 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func join_Act(_ sender: Any) {
+    @IBAction func `switch`(_ sender: UISwitch) {
+        if (sender.isOn == true){
+            output.text = "Yes"
+        }else{
+            output.text = "No I am good"
+        }
     }
     
+    
    
-    @IBAction func joinUnjoin(_ sender: Any) {
-        
-    }
     
     @IBAction func updateProfileButton(_ sender: Any) {
         let post = PFObject(className: "Posts")

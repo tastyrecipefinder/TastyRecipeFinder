@@ -339,12 +339,27 @@
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="exB-D4-n8P">
-                                <rect key="frame" x="61" y="176" width="49" height="31"/>
+                                <rect key="frame" x="3" y="203" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="joinUnjoin:" destination="zRd-50-uda" eventType="valueChanged" id="Rh3-Vd-jyc"/>
+                                    <action selector="switch:" destination="zRd-50-uda" eventType="valueChanged" id="sAD-bB-VFB"/>
                                 </connections>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Join?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRx-ZP-QtD">
+                                <rect key="frame" x="3" y="181" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrP-9a-cld">
+                                <rect key="frame" x="64" y="208" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VlA-pK-7Qd"/>
@@ -352,6 +367,7 @@
                     <connections>
                         <outlet property="followUnfollow" destination="exB-D4-n8P" id="dZK-7g-AVG"/>
                         <outlet property="imageView" destination="Ihu-em-EId" id="yZR-9w-r6z"/>
+                        <outlet property="ouput" destination="WrP-9a-cld" id="Hi1-sP-utn"/>
                         <outlet property="userAbout" destination="pFr-Jx-ySp" id="Av2-Px-Ypk"/>
                     </connections>
                 </viewController>
@@ -403,7 +419,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="25694" width="368.6400146484375" height="368.6400146484375"/>
+        <image name="25694" width="512" height="512"/>
         <image name="TastyRecipeFinderWords" width="186" height="93"/>
         <image name="image_placeholder" width="375" height="375"/>
         <image name="plus-big-512" width="512" height="512"/>
