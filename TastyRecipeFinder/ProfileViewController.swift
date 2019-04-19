@@ -14,16 +14,33 @@ import AlamofireImage
 class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var joinButton: UIButton!
     
+    @IBOutlet weak var JoinCount: UITextField!
     @IBOutlet weak var userAbout: UITextView!
     
-    
+    var join_ff: [String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func join_Act(_ sender: Any) {
+    }
+    
+    
+    @IBAction func join_Number(_ sender: Any) {
+        
+        if(joinButton.isSelected == true){
+            var join_No:[Int] = []
+            join_No.append(<#T##newElement: Int##Int#>)
+        }
+        struct Array<Element>{
+            //var total_Join =
+            
+        }
+    }
     
     @IBAction func updateProfileButton(_ sender: Any) {
         let post = PFObject(className: "Posts")
