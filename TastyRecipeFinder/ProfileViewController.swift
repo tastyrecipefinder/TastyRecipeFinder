@@ -16,7 +16,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var joinButton: UIButton!
     
-    @IBOutlet weak var followUnfollow: UISwitch!
+    
     @IBOutlet weak var JoinCount: UITextField!
     @IBOutlet weak var userAbout: UITextView!
     
