@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203E8D25226A1102008A19BF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 203E8D24226A1102008A19BF /* Settings.bundle */; };
 		405E0260224FBE2D00779C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E025F224FBE2D00779C0C /* AppDelegate.swift */; };
 		405E0265224FBE2E00779C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405E0263224FBE2E00779C0C /* Main.storyboard */; };
 		405E0267224FBE2F00779C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405E0266224FBE2F00779C0C /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		0DDFCDDA37EE4289FCF84B7F /* Pods-TastyRecipeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinder/Pods-TastyRecipeFinder.release.xcconfig"; sourceTree = "<group>"; };
 		1C9AE8EFB6F42220AF736D9F /* Pods-TastyRecipeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastyRecipeFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TastyRecipeFinderUITests/Pods-TastyRecipeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		203E8D24226A1102008A19BF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		32046FF0CDBB2B7947959A41 /* Pods_TastyRecipeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TastyRecipeFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		405E025C224FBE2D00779C0C /* TastyRecipeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyRecipeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405E025F224FBE2D00779C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				405E025F224FBE2D00779C0C /* AppDelegate.swift */,
 				405E0263224FBE2E00779C0C /* Main.storyboard */,
+				203E8D24226A1102008A19BF /* Settings.bundle */,
 				405E0266224FBE2F00779C0C /* Assets.xcassets */,
 				405E0268224FBE2F00779C0C /* LaunchScreen.storyboard */,
 				405E026B224FBE2F00779C0C /* Info.plist */,
@@ -285,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203E8D25226A1102008A19BF /* Settings.bundle in Resources */,
 				405E026A224FBE2F00779C0C /* LaunchScreen.storyboard in Resources */,
 				405E0267224FBE2F00779C0C /* Assets.xcassets in Resources */,
 				405E0265224FBE2E00779C0C /* Main.storyboard in Resources */,
@@ -386,6 +390,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/InAppSettingsKit/InAppSettingsKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -395,6 +400,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InAppSettingsKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,7 +596,9 @@
 			baseConfigurationReference = 93F62687ED000AE603A931B7 /* Pods-TastyRecipeFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TastyRecipeFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -598,6 +606,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nana.TastyRecipeFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -608,7 +617,9 @@
 			baseConfigurationReference = 0DDFCDDA37EE4289FCF84B7F /* Pods-TastyRecipeFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TastyRecipeFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,6 +627,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nana.TastyRecipeFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
