@@ -161,7 +161,7 @@
                         <subviews>
 <<<<<<< HEAD
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pn4-S7-VR4">
-<<<<<<< HEAD
+
                                 <rect key="frame" x="0.0" y="123" width="375" height="128"/>
 =======
                                 <rect key="frame" x="0.0" y="365" width="375" height="258"/>
@@ -228,7 +228,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FrX-mm-up1"/>
                     </view>
-<<<<<<< HEAD
+
                     <toolbarItems>
                         <barButtonItem id="2bx-fQ-IVK"/>
                     </toolbarItems>
