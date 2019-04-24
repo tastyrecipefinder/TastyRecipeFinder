@@ -3,7 +3,6 @@ PODS:
   - AlamofireImage (3.5.0):
     - Alamofire (~> 4.8)
   - Bolts/Tasks (1.9.0)
-  - InAppSettingsKit (2.10)
   - Parse (1.17.2):
     - Parse/Core (= 1.17.2)
   - Parse/Core (1.17.2):
@@ -11,7 +10,6 @@ PODS:
 
 DEPENDENCIES:
   - AlamofireImage
-  - InAppSettingsKit
   - Parse
 
 SPEC REPOS:
@@ -19,16 +17,14 @@ SPEC REPOS:
     - Alamofire
     - AlamofireImage
     - Bolts
-    - InAppSettingsKit
     - Parse
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  InAppSettingsKit: d965e29be941eb19857271e4625de3fba6e23c9f
   Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
 
-PODFILE CHECKSUM: a169b6449c82a232932de1880f0930e839ed09eb
+PODFILE CHECKSUM: 2d74986f4401660cef988f5ea91ebd18766e404c
 
 COCOAPODS: 1.5.3

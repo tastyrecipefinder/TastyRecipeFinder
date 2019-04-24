@@ -80,24 +80,6 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## InAppSettingsKit
-
-Copyright (c) 2009-2014:
-Luc Vandal, Edovia Inc., http://www.edovia.com
-Ortwin Gentz, FutureTap GmbH, http://www.futuretap.com
-All rights reserved.
-
-It is appreciated but not required that you give credit to Luc Vandal and Ortwin Gentz, 
-as the original authors of this code. You can give credit in a blog post, a tweet or on 
-a info page of your app. Also, the original authors appreciate letting them know if you
-use this code.
-
-The above copyright notice and this permission notice shall be included in all copies
-or substantial portions of the Software.
-
-This code is licensed under the BSD license that is available at: <http://www.opensource.org/licenses/bsd-license.php>
-
-
 ## Parse
 
 BSD License
