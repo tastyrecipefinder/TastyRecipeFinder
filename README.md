@@ -29,14 +29,14 @@ Tasty Recipe Finder is an app that allows people to exchange various recipes fro
 
 * [x] Users can sign up.   
 * [x] Users can sign in.    
-* Users can search for preferred recipes.  
-* Users can search for and refine their results by continents, diets etc.   
+* [x]Users can search for preferred recipes.  
+* [x]Users can search for and refine their results by continents, diets etc.   
 * [x] Users can attach pictures of meals to their posts. 
-* Users can add comments to posts on their feed.   
+* [x]Users can add comments to posts on their feed.   
 * [x][Users can follow other users.  
-* Users can favorite recipes.  
+* [x]Users can favorite recipes.  
 * [x] Profile pages for each user   
-* Settings (Accesibility, Notification, General, etc.) 
+* [x]Settings (Accesibility, Notification, General, etc.) 
 
 **Optional Nice-to-have Stories**
 
@@ -207,3 +207,10 @@ Build as of 4/16/19:
 
 
 <img src="http://g.recordit.co/N1y45dVUuL.gif" width=200>
+
+
+
+Final Build
+
+
+<img src="http://g.recordit.co/nW3OeXlyxp.gif" width=200>
