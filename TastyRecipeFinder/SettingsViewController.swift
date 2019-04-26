@@ -10,13 +10,37 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var display: UILabel!
+    @IBOutlet weak var privacy: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 
+    
+    @IBAction func displySwitch(_ sender: UISwitch) {
+        if (sender.isOn == true){
+            display.text = "Night Mode On"
+        }else{
+            display.text = "Night Mode Off"
+        }
+    }
+    
+    
+    @IBAction func privacySwitch(_ sender: UISwitch) {
+    if (sender.isOn == true){
+            privacy.text = "Private"
+        }else{
+            privacy.text = "Public"
+        }
+    }
     /*
     // MARK: - Navigation
 
